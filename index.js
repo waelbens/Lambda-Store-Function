@@ -5,13 +5,13 @@ exports.handler = function(event, context){
     const params = {
         Item: {
             "userID": {
-                S: ""+ event.userID
+                S: "" + event.userID
             },
             "days": {
-                N: ""+ event.days
+                N: "" + event.days
             },
             "income": {
-                N: ""+ event.income
+                N: "" + event.income
             }
         },
         TableName: "bill-yourself"
