@@ -12,15 +12,6 @@ exports.handler = function(event, context){
             },
             "income": {
                 N: "" + event.income
-            },
-            "client_name": {
-                S: "" + event.client_name
-            },
-            "client_address": {
-                S: "" + event.client_address
-            },
-            "description": {
-                S: "" + event.description
             }
         },
         TableName: "bill-yourself"
